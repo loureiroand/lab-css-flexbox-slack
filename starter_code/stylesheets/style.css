@@ -8,3 +8,261 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* - Font Sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+*/
+
+/* font-size: 10px;
+10px / 16px = 0.625 = 62.5%
+Percentage of users browser font-size setting 
+
+ */
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #540b51;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.nav-bar {
+  background-color: #540b51;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.logo-slack-bar {
+  display: flex;
+  flex: 1;
+  margin-left: 4%;
+  justify-content: space-between;
+}
+
+.logo-slack {
+  height: 25px;
+  width: 100px;
+}
+
+.icon-navbar {
+  margin-right: 5%;
+  display: flex;
+}
+
+.icon-search {
+  display: flex;
+  align-items: center;
+  background: none;
+  color: inherit;
+  border: none;
+  margin-left: 10px;
+}
+
+.icon-menu {
+  display: flex;
+  align-items: center;
+  background: none;
+  color: inherit;
+  border: none;
+  margin-left: 15px;
+}
+
+.section-hero {
+  margin: 0 auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5.2rem;
+  background-color: #540b51;
+}
+
+header {
+  margin-top: 1px;
+}
+
+.hero {
+  max-width: 76.8rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.heading-primary {
+  display: flex;
+  flex-direction: center;
+  align-self: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 5.2rem;
+  line-height: 1.1;
+  text-align: center;
+  color: white;
+  margin-bottom: 3.2rem;
+}
+
+.hero-sub-head {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  color: white;
+}
+
+.img-product-ui {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 100% height auto;
+  background-color: #540b51;
+}
+
+.hero-sub-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-button-box {
+  display: flex;
+  flex-grow: 1;
+  width: 450px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.hero-btn1 {
+  display: block;
+  height: 4.8rem;
+  border: none;
+  margin-bottom: 1.2rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  padding: 1.2rem 1.6rem;
+  border-radius: 4px;
+  color: #540b51;
+  background-color: #f3eae2;
+}
+
+.hero-btn2 {
+  display: inline-flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 0.2rem;
+  border: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-color: none;
+  border-radius: 4px;
+  /* margin-bottom: 1.2rem; */
+  color: white;
+  background-color: #4285f4;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.hero-logo-google {
+  display: flex;
+  overflow: hidden;
+  object-fit: scale-down;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border: solid 3px white;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.img-product-ui {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: self-start; */
+  max-width: 100%;
+  height: auto;
+  /* object-fit: contain;
+  object-position: right top; */
+  margin-right: 16px;
+}
+
+.logos-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f3eae2;
+  padding-bottom: 20%;
+}
+
+#intro-logos {
+  display: flex;
+  align-self: center;
+  max-width: 100%;
+  height: auto;
+  font-size: 5rem;
+  padding-bottom: 3%;
+  padding-top: 6%;
+  font-weight: 400;
+}
+
+.logo-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-bottom: 20%;
+  row-gap: 60px;
+}
+
+.img-mobile {
+  max-width: 100%;
+  height: auto;
+}
+
+.slack-team {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #f3eae2;
+}
+
+.slack-team h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83rem;
+}
+
+@media screen and (max-width: 768px) {
+}
